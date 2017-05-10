@@ -1,0 +1,71 @@
+@media screen and (max-width: 480px) {
+	.container {
+		box-sizing: border-box;
+		width: 95%;
+		padding: 0;
+	}
+
+	.user__name {
+		max-width: 150px;
+		font-size: 14px;
+		width: 56%;
+	}
+
+	.menu__items {
+		text-align: center;
+	}
+
+	.menu__item {
+		margin-left: 7%;
+	}
+
+	.menu__link-text {
+		font-size: 14px;
+	}
+
+	.menu__icon {
+		display: none;
+	}
+
+	.about__text {
+		height: auto;
+	}
+
+	.about__pic {
+		max-width: 140px;
+		max-height: 140px;
+	}
+
+	.about__right {
+		padding-bottom: 20px;
+	}
+
+	.about__text {
+		font-size: 16px;
+	}
+
+	.career__title {
+		font-size: 18px;
+	}
+
+	.career__occupation, 
+	.career__date {
+		font-size: 16px;
+	}
+
+	.portfolio__list {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.portfolio__item {
+		width: 100%;
+		max-width: 300px;
+		text-align: left;
+    }
+
+	.portfolio__pic {
+	    width: 100%;
+	}
+
+}

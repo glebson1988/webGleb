@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px) {
+	.container {
+		width: 480px;
+	}
+
+	.header__left {
+		width: 75%;
+	}
+
+	.header__right {
+		width: 25%;
+	}
+
+	.contacts {
+		margin-top: 22px;
+
+		.contacts__push {
+			background: url('../img/icons/tphone.png') 0 0 no-repeat;
+			border-style: none;
+		}
+
+		&:hover {
+			.contacts__push {
+				background: url('../img/icons/tphone-hover.png') 0 0 no-repeat;
+				border-style: none;
+			}
+		}
+	}
+
+	.contacts__push {
+		text-indent: 9999px;
+		display: inline-block;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+	}
+
+	.contacts__dropdown {
+		right: 0px;
+		transform: translateX(0);
+	}
+
+	.contacts__dropdown-triangle {
+		transform: translateX(0);
+		left: 90%;
+	}	
+
+	.about__left {
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.about__right {
+		float: none;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.content-title {
+		text-align: center;
+	}
+
+	.about__text {
+		height: auto;
+	}
+
+	.about__download {
+		text-align: center;
+	}
+
+	// career
+	.career__left {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.career__pic {
+		display: inline-block;
+	}
+
+	.career__right {
+		float: none;
+		width: 100%;
+	}
+
+	.career__block {
+		&:after, &:before {
+			display: none;
+		}
+
+		.career__year {
+			display: none;
+		}
+	}
+
+	.career__block {
+		width: 100%;
+	}
+
+	// footer
+
+	.wrapper:after {
+		height: 95px;
+	}
+
+	.footer {
+		height: 95px;
+		margin-top: -95px;
+
+		.container {
+			padding-top: 15px;
+		}
+	}
+
+	.copyright {
+		position: static;
+		text-align: center;
+		padding: 0;
+
+	}
+
+
+	.footer__left {
+		float:none;
+		margin-bottom: 10px;
+	}
+
+
+	.footer__right {
+		float: none;
+		text-align: center;
+	}
+
+	.socials {
+		padding: 0;
+	}
+
+	.portfolio__list {
+		margin-left: -2%;
+	}
+
+	.portfolio__item {
+		width: 48%;
+		margin-left: 2%;
+	}
+}

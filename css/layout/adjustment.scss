@@ -1,0 +1,55 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: FiraSans-Regular;
+	background: #f6f6f6;
+	line-height: 1.42;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper:after {
+	content: "";
+	display: block;
+	height: 50px;
+}
+
+
+.container {
+	width: 960px;
+	min-width: 940px;
+	margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer {
+    background: #414141;
+    height: 50px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+} 
+
+
+

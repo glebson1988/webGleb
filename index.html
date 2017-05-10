@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Авторизация</title>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper wrapper_auth">
+        <div class="auth">
+            <div class="auth__top">
+                <div class="auth__avatar" style="background-image: url('img/content/ava.jpg')"></div>
+                <div class="auth__name">
+                    Глеб Гришаков
+                </div>
+            </div>
+            <div class="auth__bottom">
+                <a href="about.html" class="about__download-link white-link">
+                    Перейти на сайт
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            document.querySelector('.auth').classList.add('flipInY');
+        };
+    </script>
+
+</body>
