@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width">
-	<title>Карьера</title>
-	
+	<title>Портфолио</title>
+
 	<!-- styles -->
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
 	<div class="wrapper">
-		<div class="maincontent">
+		<div class="maincontent"
 		
 			<!-- header -->
 			<header class="header">
@@ -77,7 +77,7 @@
 										<span class="menu__link-text">Обо мне</span>
 									</a>
 								</li>
-								<li class="menu__item menu__item_active">
+								<li class="menu__item">
 									<a href="career.html" class="menu__link">
 										<span class="menu__icon">
 											<i class="fa fa-rocket" aria-hidden="true"></i>
@@ -93,7 +93,7 @@
 										<span class="menu__link-text">Портфолио</span>
 									</a>
 								</li>
-								<li class="menu__item">
+								<li class="menu__item menu__item_active">
 									<a href="certificates.html" class="menu__link">
 										<span class="menu__icon">
 											<i class="fa fa-info" aria-hidden="true"></i>
@@ -107,50 +107,39 @@
 					
 					<!-- page content -->
 					<main class="page__content">
-						<div class="career">
-							<h1 class="content-title">Карьерный путь</h1>
-							<div class="career__left">
-								<div class="career__pic">
-									<div class="career__pic-img"></div>
-								</div>
-							</div>
-							<div class="career__right">
-								<ul class="career__list">
-									<li data-id="4" class="career__item">
-										<div class="career__block">
-											<div class="career__title">Loftschool</div>
-											<div class="career__occupation">Ученик курса "Веб-разработка для начинающих"</div>
-											<div class="career__date">14.11.2016 - 17.01.2017 </div>
-											<div class="career__year">2017</div>
+						<div class="portfolio">
+							<h1 class="content-title">Сертификаты</h1>
+							<ul class="portfolio__list clearfix">
+								<li class="portfolio__item">
+									<a href="img/content/loftschool.jpg" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/loftschool.jpg')"></div>
+										<div class="portfolio__desc">
+											<div class="portfolio__title">Loftschool</div>
+											<div class="portfolio__work-desc">Веб-разработка для начинающих</div>
+											<div class="portfolio__type">
+												<i class="fa fa-certificate"></i>
+												<div class="portfolio__type-title">													
+												</div>
+											</div>
 										</div>
-									</li>
-									<li data-id="3"  class="career__item">
-										<div class="career__block">
-											<div class="career__title">ООО "КИНЕФ"</div>
-											<div class="career__occupation">Инженер</div>
-											<div class="career__date">2010 - н.в.</div>
-											<div class="career__year">2016</div>
+									</a>
+								</li>
+								<li class="portfolio__item">
+									<a href="img/content/netology.jpg" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/netology.jpg')"></div>
+										<div class="portfolio__desc">
+											<div class="portfolio__title">Нетология</div>
+											<div class="portfolio__work-desc">Основы HTML и CSS</div>
+											<div class="portfolio__type">
+												<i class="fa fa-certificate"></i>
+												<div class="portfolio__type-title">													
+												</div>
+											</div>
 										</div>
-									</li>
-									<li data-id="2" class="career__item">
-										<div class="career__block">
-											<div class="career__title">Fitness House</div>
-											<div class="career__occupation">Тренер</div>
-											<div class="career__date">2010</div>
-											<div class="career__year">2010</div>
-										</div>
-									</li>
-									<li data-id="1" class="career__item">
-										<div class="career__block">
-											<div class="career__title">СПБГУАП</div>
-											<div class="career__occupation">Инженер-электромеханик</div>
-											<div class="career__date">2005-2010</div>
-											<div class="career__year">2005</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>					
+									</a>
+								</li>
+							</ul>
+						</div>				
 					</main>
 				</div>
 			</section>
@@ -180,23 +169,6 @@
 			</div>
 		</div>	
 	</footer>
-
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous">	  	
-	</script>
-
-	<script>
-        $(document).ready(function(){
-            $(".career__item").hover(
-                    function () {
-                        $(".career__pic-img").css({'backgroundImage': 'url(img/content/career'+ $(this).data("id") +'.jpg)'});
-                    },
-                    function() {}
-            );
-       });
-    </script>
 
 </body>
 </html>
